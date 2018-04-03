@@ -4,4 +4,19 @@ $ exists target/bioconda/recipes
 $ exists target/bioconda/scripts
 $ exists target/bioconda/recipes/biopet
 $ exists target/bioconda/config.yml
-> biocondaRelease
+> biocondaUpdatedBranch
+> biocondaCreateRecipes
+$ exists target/recipes/testtool/0.1/meta.yaml
+$ exists target/recipes/testtool/0.1/testtool.py
+$ exists target/recipes/testtool/0.1/build.sh
+$ exists target/recipes/testtool/meta.yaml
+$ exists target/recipes/testtool/testtool.py
+$ exists target/recipes/testtool/build.sh
+> biocondaAddRecipes
+$ exists target/bioconda/recipes/testtool/0.1/meta.yaml
+$ exists target/bioconda/recipes/testtool/0.1/testtool.py
+$ exists target/bioconda/recipes/testtool/0.1/build.sh
+$ exists target/bioconda/recipes/testtool/meta.yaml
+$ exists target/bioconda/recipes/testtool/testtool.py
+$ exists target/bioconda/recipes/testtool/build.sh
+> biocondaTestRecipes
